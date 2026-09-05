@@ -1,0 +1,1249 @@
+@prefix aps:  <https://222413778-afk.github.io/aps-indonesia/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix qb:   <http://purl.org/linked-data/cube#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+aps:dataset/aps-2025
+    a dcat:Dataset ;
+    dct:title "Angka Partisipasi Sekolah (APS) Menurut Provinsi dan Kelompok Umur, 2025"@id ;
+    dct:issued "2025"^^xsd:gYear ;
+    dct:language "id" ;
+    dct:format "text/turtle" ;
+    dct:description "Data Angka Partisipasi Sekolah (APS) menurut provinsi dan kelompok umur di Indonesia tahun 2025."@id .
+
+aps:provinsi/aceh
+    a aps:Provinsi ;
+    rdfs:label "ACEH"@id .
+
+aps:provinsi/bali
+    a aps:Provinsi ;
+    rdfs:label "BALI"@id .
+
+aps:provinsi/banten
+    a aps:Provinsi ;
+    rdfs:label "BANTEN"@id .
+
+aps:provinsi/bengkulu
+    a aps:Provinsi ;
+    rdfs:label "BENGKULU"@id .
+
+aps:provinsi/di-yogyakarta
+    a aps:Provinsi ;
+    rdfs:label "DI YOGYAKARTA"@id .
+
+aps:provinsi/dki-jakarta
+    a aps:Provinsi ;
+    rdfs:label "DKI JAKARTA"@id .
+
+aps:provinsi/gorontalo
+    a aps:Provinsi ;
+    rdfs:label "GORONTALO"@id .
+
+aps:provinsi/jambi
+    a aps:Provinsi ;
+    rdfs:label "JAMBI"@id .
+
+aps:provinsi/jawa-barat
+    a aps:Provinsi ;
+    rdfs:label "JAWA BARAT"@id .
+
+aps:provinsi/jawa-tengah
+    a aps:Provinsi ;
+    rdfs:label "JAWA TENGAH"@id .
+
+aps:provinsi/jawa-timur
+    a aps:Provinsi ;
+    rdfs:label "JAWA TIMUR"@id .
+
+aps:provinsi/kalimantan-barat
+    a aps:Provinsi ;
+    rdfs:label "KALIMANTAN BARAT"@id .
+
+aps:provinsi/kalimantan-selatan
+    a aps:Provinsi ;
+    rdfs:label "KALIMANTAN SELATAN"@id .
+
+aps:provinsi/kalimantan-tengah
+    a aps:Provinsi ;
+    rdfs:label "KALIMANTAN TENGAH"@id .
+
+aps:provinsi/kalimantan-timur
+    a aps:Provinsi ;
+    rdfs:label "KALIMANTAN TIMUR"@id .
+
+aps:provinsi/kalimantan-utara
+    a aps:Provinsi ;
+    rdfs:label "KALIMANTAN UTARA"@id .
+
+aps:provinsi/kep-bangka-belitung
+    a aps:Provinsi ;
+    rdfs:label "KEP. BANGKA BELITUNG"@id .
+
+aps:provinsi/kep-riau
+    a aps:Provinsi ;
+    rdfs:label "KEP. RIAU"@id .
+
+aps:provinsi/lampung
+    a aps:Provinsi ;
+    rdfs:label "LAMPUNG"@id .
+
+aps:provinsi/maluku
+    a aps:Provinsi ;
+    rdfs:label "MALUKU"@id .
+
+aps:provinsi/maluku-utara
+    a aps:Provinsi ;
+    rdfs:label "MALUKU UTARA"@id .
+
+aps:provinsi/nusa-tenggara-barat
+    a aps:Provinsi ;
+    rdfs:label "NUSA TENGGARA BARAT"@id .
+
+aps:provinsi/nusa-tenggara-timur
+    a aps:Provinsi ;
+    rdfs:label "NUSA TENGGARA TIMUR"@id .
+
+aps:provinsi/papua
+    a aps:Provinsi ;
+    rdfs:label "PAPUA"@id .
+
+aps:provinsi/papua-barat
+    a aps:Provinsi ;
+    rdfs:label "PAPUA BARAT"@id .
+
+aps:provinsi/papua-barat-daya
+    a aps:Provinsi ;
+    rdfs:label "PAPUA BARAT DAYA"@id .
+
+aps:provinsi/papua-pegunungan
+    a aps:Provinsi ;
+    rdfs:label "PAPUA PEGUNUNGAN"@id .
+
+aps:provinsi/papua-selatan
+    a aps:Provinsi ;
+    rdfs:label "PAPUA SELATAN"@id .
+
+aps:provinsi/papua-tengah
+    a aps:Provinsi ;
+    rdfs:label "PAPUA TENGAH"@id .
+
+aps:provinsi/riau
+    a aps:Provinsi ;
+    rdfs:label "RIAU"@id .
+
+aps:provinsi/sulawesi-barat
+    a aps:Provinsi ;
+    rdfs:label "SULAWESI BARAT"@id .
+
+aps:provinsi/sulawesi-selatan
+    a aps:Provinsi ;
+    rdfs:label "SULAWESI SELATAN"@id .
+
+aps:provinsi/sulawesi-tengah
+    a aps:Provinsi ;
+    rdfs:label "SULAWESI TENGAH"@id .
+
+aps:provinsi/sulawesi-tenggara
+    a aps:Provinsi ;
+    rdfs:label "SULAWESI TENGGARA"@id .
+
+aps:provinsi/sulawesi-utara
+    a aps:Provinsi ;
+    rdfs:label "SULAWESI UTARA"@id .
+
+aps:provinsi/sumatera-barat
+    a aps:Provinsi ;
+    rdfs:label "SUMATERA BARAT"@id .
+
+aps:provinsi/sumatera-selatan
+    a aps:Provinsi ;
+    rdfs:label "SUMATERA SELATAN"@id .
+
+aps:provinsi/sumatera-utara
+    a aps:Provinsi ;
+    rdfs:label "SUMATERA UTARA"@id .
+
+aps:kelompok-umur/7-12
+    a aps:KelompokUmur ;
+    rdfs:label "7-12 tahun"@id .
+
+aps:kelompok-umur/13-15
+    a aps:KelompokUmur ;
+    rdfs:label "13-15 tahun"@id .
+
+aps:kelompok-umur/16-18
+    a aps:KelompokUmur ;
+    rdfs:label "16-18 tahun"@id .
+
+aps:kelompok-umur/19-23
+    a aps:KelompokUmur ;
+    rdfs:label "19-23 tahun"@id .
+
+aps:observasi/aceh-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/aceh ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.65"^^xsd:decimal .
+
+aps:observasi/aceh-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/aceh ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "80.94"^^xsd:decimal .
+
+aps:observasi/aceh-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/aceh ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "34.95"^^xsd:decimal .
+
+aps:observasi/aceh-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/aceh ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.38"^^xsd:decimal .
+
+aps:observasi/bali-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/bali ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "98.88"^^xsd:decimal .
+
+aps:observasi/bali-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/bali ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "90.68"^^xsd:decimal .
+
+aps:observasi/bali-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/bali ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "34.32"^^xsd:decimal .
+
+aps:observasi/bali-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/bali ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.57"^^xsd:decimal .
+
+aps:observasi/banten-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/banten ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.11"^^xsd:decimal .
+
+aps:observasi/banten-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/banten ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "73.84"^^xsd:decimal .
+
+aps:observasi/banten-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/banten ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "24.45"^^xsd:decimal .
+
+aps:observasi/banten-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/banten ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.52"^^xsd:decimal .
+
+aps:observasi/bengkulu-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/bengkulu ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.01"^^xsd:decimal .
+
+aps:observasi/bengkulu-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/bengkulu ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "80.48"^^xsd:decimal .
+
+aps:observasi/bengkulu-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/bengkulu ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "34.18"^^xsd:decimal .
+
+aps:observasi/bengkulu-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/bengkulu ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.29"^^xsd:decimal .
+
+aps:observasi/di-yogyakarta-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/di-yogyakarta ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.60"^^xsd:decimal .
+
+aps:observasi/di-yogyakarta-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/di-yogyakarta ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "93.03"^^xsd:decimal .
+
+aps:observasi/di-yogyakarta-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/di-yogyakarta ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "54.72"^^xsd:decimal .
+
+aps:observasi/di-yogyakarta-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/di-yogyakarta ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.61"^^xsd:decimal .
+
+aps:observasi/dki-jakarta-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/dki-jakarta ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "98.74"^^xsd:decimal .
+
+aps:observasi/dki-jakarta-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/dki-jakarta ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "88.22"^^xsd:decimal .
+
+aps:observasi/dki-jakarta-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/dki-jakarta ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "34.21"^^xsd:decimal .
+
+aps:observasi/dki-jakarta-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/dki-jakarta ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.32"^^xsd:decimal .
+
+aps:observasi/gorontalo-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/gorontalo ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "92.35"^^xsd:decimal .
+
+aps:observasi/gorontalo-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/gorontalo ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "72.00"^^xsd:decimal .
+
+aps:observasi/gorontalo-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/gorontalo ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "35.02"^^xsd:decimal .
+
+aps:observasi/gorontalo-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/gorontalo ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "98.85"^^xsd:decimal .
+
+aps:observasi/jambi-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jambi ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "95.59"^^xsd:decimal .
+
+aps:observasi/jambi-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jambi ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "74.39"^^xsd:decimal .
+
+aps:observasi/jambi-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jambi ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "25.23"^^xsd:decimal .
+
+aps:observasi/jambi-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jambi ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.45"^^xsd:decimal .
+
+aps:observasi/jawa-barat-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-barat ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "96.58"^^xsd:decimal .
+
+aps:observasi/jawa-barat-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-barat ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "75.80"^^xsd:decimal .
+
+aps:observasi/jawa-barat-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-barat ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "27.98"^^xsd:decimal .
+
+aps:observasi/jawa-barat-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-barat ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.50"^^xsd:decimal .
+
+aps:observasi/jawa-tengah-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.05"^^xsd:decimal .
+
+aps:observasi/jawa-tengah-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "77.97"^^xsd:decimal .
+
+aps:observasi/jawa-tengah-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "27.44"^^xsd:decimal .
+
+aps:observasi/jawa-tengah-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.54"^^xsd:decimal .
+
+aps:observasi/jawa-timur-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-timur ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.15"^^xsd:decimal .
+
+aps:observasi/jawa-timur-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-timur ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "80.96"^^xsd:decimal .
+
+aps:observasi/jawa-timur-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-timur ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "28.90"^^xsd:decimal .
+
+aps:observasi/jawa-timur-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/jawa-timur ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.28"^^xsd:decimal .
+
+aps:observasi/kalimantan-barat-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-barat ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "94.36"^^xsd:decimal .
+
+aps:observasi/kalimantan-barat-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-barat ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "70.95"^^xsd:decimal .
+
+aps:observasi/kalimantan-barat-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-barat ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "26.84"^^xsd:decimal .
+
+aps:observasi/kalimantan-barat-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-barat ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "98.95"^^xsd:decimal .
+
+aps:observasi/kalimantan-selatan-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "93.82"^^xsd:decimal .
+
+aps:observasi/kalimantan-selatan-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "75.16"^^xsd:decimal .
+
+aps:observasi/kalimantan-selatan-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "30.91"^^xsd:decimal .
+
+aps:observasi/kalimantan-selatan-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.14"^^xsd:decimal .
+
+aps:observasi/kalimantan-tengah-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "95.74"^^xsd:decimal .
+
+aps:observasi/kalimantan-tengah-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "70.76"^^xsd:decimal .
+
+aps:observasi/kalimantan-tengah-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "24.91"^^xsd:decimal .
+
+aps:observasi/kalimantan-tengah-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.45"^^xsd:decimal .
+
+aps:observasi/kalimantan-timur-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-timur ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.34"^^xsd:decimal .
+
+aps:observasi/kalimantan-timur-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-timur ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "84.15"^^xsd:decimal .
+
+aps:observasi/kalimantan-timur-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-timur ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "33.15"^^xsd:decimal .
+
+aps:observasi/kalimantan-timur-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-timur ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.64"^^xsd:decimal .
+
+aps:observasi/kalimantan-utara-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-utara ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "95.96"^^xsd:decimal .
+
+aps:observasi/kalimantan-utara-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-utara ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "81.93"^^xsd:decimal .
+
+aps:observasi/kalimantan-utara-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-utara ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "29.25"^^xsd:decimal .
+
+aps:observasi/kalimantan-utara-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kalimantan-utara ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.14"^^xsd:decimal .
+
+aps:observasi/kep-bangka-belitung-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kep-bangka-belitung ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "92.90"^^xsd:decimal .
+
+aps:observasi/kep-bangka-belitung-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kep-bangka-belitung ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "76.03"^^xsd:decimal .
+
+aps:observasi/kep-bangka-belitung-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kep-bangka-belitung ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "21.13"^^xsd:decimal .
+
+aps:observasi/kep-bangka-belitung-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kep-bangka-belitung ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.49"^^xsd:decimal .
+
+aps:observasi/kep-riau-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kep-riau ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "98.60"^^xsd:decimal .
+
+aps:observasi/kep-riau-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kep-riau ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "88.24"^^xsd:decimal .
+
+aps:observasi/kep-riau-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kep-riau ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "26.61"^^xsd:decimal .
+
+aps:observasi/kep-riau-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/kep-riau ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.71"^^xsd:decimal .
+
+aps:observasi/lampung-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/lampung ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "95.72"^^xsd:decimal .
+
+aps:observasi/lampung-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/lampung ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "75.35"^^xsd:decimal .
+
+aps:observasi/lampung-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/lampung ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "20.68"^^xsd:decimal .
+
+aps:observasi/lampung-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/lampung ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.62"^^xsd:decimal .
+
+aps:observasi/maluku-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/maluku ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.75"^^xsd:decimal .
+
+aps:observasi/maluku-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/maluku ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "77.28"^^xsd:decimal .
+
+aps:observasi/maluku-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/maluku ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "29.66"^^xsd:decimal .
+
+aps:observasi/maluku-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/maluku ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.56"^^xsd:decimal .
+
+aps:observasi/maluku-utara-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/maluku-utara ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.08"^^xsd:decimal .
+
+aps:observasi/maluku-utara-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/maluku-utara ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "79.62"^^xsd:decimal .
+
+aps:observasi/maluku-utara-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/maluku-utara ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "25.38"^^xsd:decimal .
+
+aps:observasi/maluku-utara-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/maluku-utara ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.04"^^xsd:decimal .
+
+aps:observasi/nusa-tenggara-barat-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/nusa-tenggara-barat ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "96.92"^^xsd:decimal .
+
+aps:observasi/nusa-tenggara-barat-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/nusa-tenggara-barat ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "79.21"^^xsd:decimal .
+
+aps:observasi/nusa-tenggara-barat-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/nusa-tenggara-barat ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "28.88"^^xsd:decimal .
+
+aps:observasi/nusa-tenggara-barat-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/nusa-tenggara-barat ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.38"^^xsd:decimal .
+
+aps:observasi/nusa-tenggara-timur-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/nusa-tenggara-timur ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "95.44"^^xsd:decimal .
+
+aps:observasi/nusa-tenggara-timur-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/nusa-tenggara-timur ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "76.65"^^xsd:decimal .
+
+aps:observasi/nusa-tenggara-timur-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/nusa-tenggara-timur ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "31.41"^^xsd:decimal .
+
+aps:observasi/nusa-tenggara-timur-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/nusa-tenggara-timur ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "98.89"^^xsd:decimal .
+
+aps:observasi/papua-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.32"^^xsd:decimal .
+
+aps:observasi/papua-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "81.78"^^xsd:decimal .
+
+aps:observasi/papua-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "38.16"^^xsd:decimal .
+
+aps:observasi/papua-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.51"^^xsd:decimal .
+
+aps:observasi/papua-barat-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-barat ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "96.22"^^xsd:decimal .
+
+aps:observasi/papua-barat-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-barat ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "77.53"^^xsd:decimal .
+
+aps:observasi/papua-barat-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-barat ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "34.53"^^xsd:decimal .
+
+aps:observasi/papua-barat-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-barat ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.59"^^xsd:decimal .
+
+aps:observasi/papua-barat-daya-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-barat-daya ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "96.38"^^xsd:decimal .
+
+aps:observasi/papua-barat-daya-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-barat-daya ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "81.70"^^xsd:decimal .
+
+aps:observasi/papua-barat-daya-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-barat-daya ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "35.19"^^xsd:decimal .
+
+aps:observasi/papua-barat-daya-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-barat-daya ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "98.67"^^xsd:decimal .
+
+aps:observasi/papua-pegunungan-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-pegunungan ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "71.08"^^xsd:decimal .
+
+aps:observasi/papua-pegunungan-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-pegunungan ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "50.79"^^xsd:decimal .
+
+aps:observasi/papua-pegunungan-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-pegunungan ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "12.48"^^xsd:decimal .
+
+aps:observasi/papua-pegunungan-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-pegunungan ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "82.24"^^xsd:decimal .
+
+aps:observasi/papua-selatan-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "89.29"^^xsd:decimal .
+
+aps:observasi/papua-selatan-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "66.97"^^xsd:decimal .
+
+aps:observasi/papua-selatan-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "27.57"^^xsd:decimal .
+
+aps:observasi/papua-selatan-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "91.65"^^xsd:decimal .
+
+aps:observasi/papua-tengah-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "67.86"^^xsd:decimal .
+
+aps:observasi/papua-tengah-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "44.61"^^xsd:decimal .
+
+aps:observasi/papua-tengah-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "15.48"^^xsd:decimal .
+
+aps:observasi/papua-tengah-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/papua-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "80.13"^^xsd:decimal .
+
+aps:observasi/riau-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/riau ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "95.47"^^xsd:decimal .
+
+aps:observasi/riau-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/riau ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "77.42"^^xsd:decimal .
+
+aps:observasi/riau-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/riau ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "33.03"^^xsd:decimal .
+
+aps:observasi/riau-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/riau ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.74"^^xsd:decimal .
+
+aps:observasi/sulawesi-barat-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-barat ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "92.30"^^xsd:decimal .
+
+aps:observasi/sulawesi-barat-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-barat ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "73.22"^^xsd:decimal .
+
+aps:observasi/sulawesi-barat-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-barat ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "23.55"^^xsd:decimal .
+
+aps:observasi/sulawesi-barat-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-barat ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "98.56"^^xsd:decimal .
+
+aps:observasi/sulawesi-selatan-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "94.22"^^xsd:decimal .
+
+aps:observasi/sulawesi-selatan-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "75.94"^^xsd:decimal .
+
+aps:observasi/sulawesi-selatan-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "33.80"^^xsd:decimal .
+
+aps:observasi/sulawesi-selatan-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.21"^^xsd:decimal .
+
+aps:observasi/sulawesi-tengah-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "94.58"^^xsd:decimal .
+
+aps:observasi/sulawesi-tengah-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "75.36"^^xsd:decimal .
+
+aps:observasi/sulawesi-tengah-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "26.50"^^xsd:decimal .
+
+aps:observasi/sulawesi-tengah-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-tengah ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "98.56"^^xsd:decimal .
+
+aps:observasi/sulawesi-tenggara-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-tenggara ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "96.53"^^xsd:decimal .
+
+aps:observasi/sulawesi-tenggara-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-tenggara ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "79.58"^^xsd:decimal .
+
+aps:observasi/sulawesi-tenggara-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-tenggara ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "33.67"^^xsd:decimal .
+
+aps:observasi/sulawesi-tenggara-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-tenggara ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.05"^^xsd:decimal .
+
+aps:observasi/sulawesi-utara-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-utara ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "96.11"^^xsd:decimal .
+
+aps:observasi/sulawesi-utara-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-utara ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "71.45"^^xsd:decimal .
+
+aps:observasi/sulawesi-utara-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-utara ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "25.57"^^xsd:decimal .
+
+aps:observasi/sulawesi-utara-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sulawesi-utara ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.28"^^xsd:decimal .
+
+aps:observasi/sumatera-barat-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-barat ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.00"^^xsd:decimal .
+
+aps:observasi/sumatera-barat-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-barat ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "85.04"^^xsd:decimal .
+
+aps:observasi/sumatera-barat-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-barat ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "38.84"^^xsd:decimal .
+
+aps:observasi/sumatera-barat-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-barat ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.63"^^xsd:decimal .
+
+aps:observasi/sumatera-selatan-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "95.68"^^xsd:decimal .
+
+aps:observasi/sumatera-selatan-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "73.78"^^xsd:decimal .
+
+aps:observasi/sumatera-selatan-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "21.24"^^xsd:decimal .
+
+aps:observasi/sumatera-selatan-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-selatan ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.50"^^xsd:decimal .
+
+aps:observasi/sumatera-utara-13-15-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-utara ;
+    aps:kelompokUmur aps:kelompok-umur/13-15 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "97.67"^^xsd:decimal .
+
+aps:observasi/sumatera-utara-16-18-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-utara ;
+    aps:kelompokUmur aps:kelompok-umur/16-18 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "77.51"^^xsd:decimal .
+
+aps:observasi/sumatera-utara-19-23-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-utara ;
+    aps:kelompokUmur aps:kelompok-umur/19-23 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "30.48"^^xsd:decimal .
+
+aps:observasi/sumatera-utara-7-12-2025
+    a qb:Observation ;
+    aps:provinsi aps:provinsi/sumatera-utara ;
+    aps:kelompokUmur aps:kelompok-umur/7-12 ;
+    aps:tahun "2025"^^xsd:gYear ;
+    aps:nilaiAPS "99.54"^^xsd:decimal .
+
